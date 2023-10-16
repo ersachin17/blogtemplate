@@ -1,0 +1,68 @@
+ @media screen and (max-width: 1050px) {
+     .navigation {
+         flex-direction: column;
+         margin-bottom: 23px;
+     }
+
+     .nav-left {
+         flex-direction: column;
+         text-align: center;
+     }
+     .content-right{
+        display: none;
+     }
+     .home-article{
+        flex-direction: column;
+     }
+     .home-article img{
+        text-align: center;
+     }
+    .year-box{
+        top: 25px;
+        left: 60vw;
+       font-size: 5px;
+        display: flex;
+    }
+    .year-box div{
+        padding: 0 6px;
+        margin: 0;
+        font-size: 12px;
+    }
+    .home-article img{
+        width: 70vw;
+    }
+    .home-articles h2{
+        font-size: 17px;
+        font-weight: bolder;
+    }
+    .form-input{
+        width: 50%;
+    }
+    .form-box input, textarea{
+        width: 66vw;
+    }
+    .row {
+        flex-direction: column;
+    }
+    .Social{
+        padding: 0;
+    }
+    .blog-img{
+        height: auto;
+    }
+    .adjust-year{
+        position: static;
+        height: auto;
+        padding: 12px 0px;
+        display: flex;
+        /* justify-content: flex-end; */
+        width: 100%;
+    }
+    .content-left span{
+        font-size: 26px;
+        font-weight: bolder;
+    }
+    .blog-content h1{
+          font-size: 23px;
+    }
+ }
